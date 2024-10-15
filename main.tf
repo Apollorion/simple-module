@@ -1,6 +1,7 @@
 variable "env" {
   type = string
   description = "The environment name"
+  default = "dev"
 }
 
 resource "null_resource" "env" {
